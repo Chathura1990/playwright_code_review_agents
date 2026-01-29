@@ -1,0 +1,23 @@
+{
+  "name": "playwright_code_review_agents",
+  "version": "1.0.0",
+  "description": "A specialized code review agents for Playwright test automation frameworks that ensures code quality, maintainability, and reliability.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chathura1990/playwright_code_review_agents.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Chathura1990/playwright_code_review_agents/issues"
+  },
+  "homepage": "https://github.com/Chathura1990/playwright_code_review_agents#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.58.0",
+    "@types/node": "^25.1.0"
+  }
+}

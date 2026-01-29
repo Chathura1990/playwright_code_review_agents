@@ -1,0 +1,28 @@
+{
+  "name": "playwright-code-review-agent",
+  "version": "1.0.0",
+  "description": "Automated code review agent for Playwright test frameworks",
+  "main": "playwright-code-review-agent-tests.js",
+  "bin": {
+    "playwright-review": "./playwright-code-review-agent-tests.js"
+  },
+  "scripts": {
+    "review": "node playwright-code-review-agent-tests.js",
+    "review:all": "node playwright-code-review-agent-tests.js --all",
+    "test": "node playwright-code-review-agent-tests.js --help"
+  },
+  "keywords": [
+    "playwright",
+    "code-review",
+    "testing",
+    "automation",
+    "quality-assurance"
+  ],
+  "author": "Playwright Code Review Agent",
+  "license": "MIT-CSR",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
